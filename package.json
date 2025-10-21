@@ -1,0 +1,22 @@
+{
+  "name": "cli-trivia-game",
+  "version": "1.0.0",
+  "description": "CLI Trivia game for SE02: Essentials Front-End Development: Javascript Essentials",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaburbank/CLI-Trivia-Game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaburbank/CLI-Trivia-Game/issues"
+  },
+  "homepage": "https://github.com/kaburbank/CLI-Trivia-Game#readme",
+  "devDependencies": {
+    "eslint": "^9.38.0"
+  }
+}
