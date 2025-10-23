@@ -120,10 +120,9 @@ export async function timedQuestion(question, timeout = 10000) {
 };
 
 // Create async function using four selections from the questions array that provides feedback for the user answer
-const questionLimit = 4;
-
 export async function startGame(gameState){
     console.log(chalk.cyan("Welcome to the Trivia Game! You have 10  seconds per question."));
+    const questionLimit = 4;
     const selectedQuestions = [...questions].sort(() => 0.5 - Math.random()).slice(0, questionLimit);
 
     for(const question of selectedQuestions) {
