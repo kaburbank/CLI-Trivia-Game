@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "bin": {
-    "CLITrivia": "./bin/index.js"
+    "CLITrivia": "bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,11 +21,14 @@
   },
   "homepage": "https://github.com/kaburbank/CLI-Trivia-Game#readme",
   "devDependencies": {
-    "eslint": "^9.38.0"
+    "@eslint/js": "^9.38.0",
+    "eslint": "^9.38.0",
+    "globals": "^16.4.0"
   },
   "dependencies": {
     "@inquirer/prompts": "7.5",
     "chalk": "^4.1.2",
     "commander": "^13.1.0"
-  }
+  },
+  "keywords": []
 }
