@@ -68,7 +68,7 @@ export async function timedQuestion(question, timeout = 10000) {
   let timeoutId;
   let resolved = false; 
 
-  // Define the question prompt and answer choices
+  // Define the question prompt and choices as answer promise
   const answerPromise = select({
     message: question.question,
     choices: question.choices.map((choice) => ({
